@@ -18,18 +18,35 @@ body {
 
 #title {
     position: fixed;
-    color: white;
-    text-shadow: 2px 2px 2px black;
+    font-style: italic;
+    font-size: 3vw;
+    color: rgba(255, 229, 0, 1);
+    text-shadow: 1px 1px 1px white;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
+
+
+#sunbeam {
+    position: fixed;
+    font-style: italic;
+    font-size: 2vw;
+    color: rgba(255, 229, 0, 1);
+    text-shadow: 1px 1px 1px white;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
 
 .background {
     width: 100%;
-    animation: breathe 1000ms infinite alternate;
-    background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(187, 255, 206, 1) 14%, rgba(255, 240, 85, 1) 35%, rgba(251, 255, 0, 1) 38%, rgba(255, 217, 97, 1) 40%, rgba(255, 255, 255, 1) 74%, rgba(52, 216, 219, 1) 84%, rgba(21, 210, 213, 1) 85%, rgba(161, 254, 255, 1) 88%, rgba(255, 255, 255, 1) 92%, rgba(255, 240, 85, 1) 95%, rgba(254, 200, 102, 1) 96%, rgba(255, 255, 255, 1) 100%);
+    animation: breathe 3333333ms infinite alternate;
+    background: rgb(2, 0, 17);
+    background: linear-gradient(90deg, rgba(2, 0, 17, 1) 0%, rgba(101, 255, 242, 1) 79%, rgba(255, 229, 0, 1) 80%, rgba(255, 255, 255, 1) 100%);
 }
 
 @keyframes breathe {
@@ -37,6 +54,6 @@ body {
         transform: scale(1);
     }
     to {
-        transform: scale(2);
+        transform: scale(333);
     }
 }
