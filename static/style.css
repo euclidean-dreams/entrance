@@ -16,29 +16,31 @@ body {
     padding: 0;
 }
 
-#title {
+.title {
     position: fixed;
     font-style: italic;
-    font-size: 3vw;
     color: rgba(255, 229, 0, 1);
     text-shadow: 1px 1px 1px white;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
 
+#web {
+    font-size: 2vw;
+    top: 50%;
+    left: 50%;
+}
 
 #sunbeam {
-    position: fixed;
-    font-style: italic;
     font-size: 2vw;
-    color: rgba(255, 229, 0, 1);
-    text-shadow: 1px 1px 1px white;
     top: 40%;
     left: 40%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
+}
+
+#brushwork {
+    font-size: 2vw;
+    top: 60%;
+    left: 60%;
 }
 
 
