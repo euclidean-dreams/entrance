@@ -19,8 +19,8 @@ body {
 .title {
     position: fixed;
     font-style: italic;
-    color: rgba(255, 229, 0, 1);
-    text-shadow: 1px 1px 1px white;
+    color: rgb(238, 255, 0);
+    text-shadow: 2px 2px 2px #ff6dfb;
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
@@ -43,19 +43,19 @@ body {
     left: 60%;
 }
 
+#cosmology {
+    font-size: 2vw;
+    top: 60%;
+    left: 40%;
+}
 
 .background {
     width: 100%;
     animation: breathe 3333333ms infinite alternate;
     background: rgb(2, 0, 17);
-    background: linear-gradient(90deg, rgba(2, 0, 17, 1) 0%, rgba(101, 255, 242, 1) 79%, rgba(255, 229, 0, 1) 80%, rgba(255, 255, 255, 1) 100%);
-}
-
-@keyframes breathe {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(333);
-    }
+    background: linear-gradient(90deg,
+    rgba(2, 0, 17, 1) 0%,
+    rgba(101, 255, 242, 1) 47%,
+    rgba(101, 255, 242, 1) 53%,
+    rgba(2, 0, 17, 1) 100%);
 }
