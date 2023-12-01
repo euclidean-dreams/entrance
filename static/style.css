@@ -49,9 +49,14 @@ body {
     left: 40%;
 }
 
+#hearts {
+    font-size: 2vw;
+    top: 40%;
+    left: 60%;
+}
+
 .background {
     width: 100%;
-    animation: breathe 3333333ms infinite alternate;
     background: rgb(2, 0, 17);
     background: linear-gradient(90deg,
     rgba(2, 0, 17, 1) 0%,
