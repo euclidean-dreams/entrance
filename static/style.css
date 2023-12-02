@@ -59,8 +59,8 @@ body {
     width: 100%;
     background: rgb(2, 0, 17);
     background: linear-gradient(90deg,
-    rgba(2, 0, 17, 1) 0%,
-    rgba(101, 255, 242, 1) 47%,
-    rgba(101, 255, 242, 1) 53%,
-    rgba(2, 0, 17, 1) 100%);
+    rgba(22, 11, 33, 1) 0%,
+    rgba(0, 0, 0, 1) 33%,
+    rgba(0, 0, 0, 1) 66%,
+    rgba(22, 11, 33, 1) 100%);
 }
