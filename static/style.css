@@ -40,19 +40,25 @@ body {
 #brushwork {
     font-size: 2vw;
     top: 60%;
-    left: 60%;
+    left: 40%;
 }
 
 #cosmology {
     font-size: 2.5vw;
     top: 60%;
-    left: 40%;
+    left: 60%;
 }
 
 #hearts {
     font-size: 3vw;
     top: 40%;
     left: 60%;
+}
+
+#bubbles {
+    font-size: 3.5vw;
+    top: 30%;
+    left: 50%;
 }
 
 .background {
