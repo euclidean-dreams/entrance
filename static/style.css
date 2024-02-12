@@ -57,8 +57,14 @@ body {
 
 #bubbles {
     font-size: 3.5vw;
-    top: 30%;
+    top: 20%;
     left: 50%;
+}
+
+#hymn {
+    font-size: 4vw;
+    top: 50%;
+    left: 20%;
 }
 
 .background {
