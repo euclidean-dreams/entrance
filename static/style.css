@@ -73,6 +73,12 @@ body {
     left: 50%;
 }
 
+#munin {
+    font-size: 5.0vw;
+    top: 50%;
+    left: 80%;
+}
+
 .background {
     width: 100%;
     background: rgb(2, 0, 17);
