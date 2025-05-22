@@ -67,6 +67,12 @@ body {
     left: 20%;
 }
 
+#barometer {
+    font-size: 4.5vw;
+    top: 80%;
+    left: 50%;
+}
+
 .background {
     width: 100%;
     background: rgb(2, 0, 17);
